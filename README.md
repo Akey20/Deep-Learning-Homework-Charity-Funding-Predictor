@@ -1,3 +1,21 @@
+# ALL FINAL FILES ARE IN INSTRUCTIONS FOLDER - PLEASE SEE 1ST PART STARTER CODE, 2ND PART STARTER CODE AND H5 FILES IN INSTRUCTIONS FOLDER
+## WRITE UP IS BELOW
+
+# FINAL DETAILS, CONCLUSIONS AND OBSERVATIONS REPORT 
+
+## Alphabet Soup Charity 
+______________________________________________________________________________________
+Accuracy is approx 72% and loss was approx 56%. The accuracy may have gone up with more epochs and additional learning time. With the Model as is we were able to 
+predict approx 72% of the campaign organizations that would be successful. 
+
+## Alphabet Soup Charity Optimization
+_______________________________________________________________________________________
+Accuracy for this Optimized model is around 79% and loss was around 45%. Thus we are able to predict with approx 79% the campaigns or orginizations that would be successful. The target accuracy was above 75% by dropping "Status" & "Special Considerations" columns while retaining the "Name" Column.  
+Changes made to the model: Layer1 nodes changed to 100, a 3rd set of nodes were added with a value of 30. There were 3 hidden nodes of 100, 30, 10 and finally we changed the activation for the 2nd hidden layer from relu to sigmoid. 
+
+
+
+
 # Deep Learning Homework: Charity Funding Predictor
 
 ## Background
